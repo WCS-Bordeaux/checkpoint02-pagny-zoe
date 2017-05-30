@@ -14,9 +14,9 @@ angular
 
     .config(config)
 
-    // .factory("Hey", function() {
-    //     return {getConseil: () => "utilise les factory pour créer ta ressource !"}
-    // })
+    .factory("Hey", function() {
+    return {getConseil: () => "utilise les factory pour créer ta ressource !"}
+    })
 
 function Config($stateProvider, $urlRouteProvider) {
     const states = [
